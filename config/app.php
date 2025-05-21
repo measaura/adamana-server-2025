@@ -123,4 +123,16 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Google API Key
+    |--------------------------------------------------------------------------
+    |
+    | This key is used for Google API services. Make sure to set it in your
+    | environment file (.env) for security reasons. It is used for geolocation
+    | services and other Google APIs that require authentication.
+    |
+    */
+    'google_key' => env('GOOGLE_API_KEY', ''),
+
 ];
