@@ -366,7 +366,7 @@ net
 
       var post_options = {
         host: vhost,
-        port: "3000",
+        port: "8000",
         path: "/api/updatedevice",
         method: "POST",
         headers: {
